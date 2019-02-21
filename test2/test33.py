@@ -67,17 +67,15 @@ def downloadtxt(zongurl,bookname):
 def shuchu(txt):
     print(txt)
 
-#if __name__ == '__main__':
-#    a = input("请输入您想下载小说的目录地址：")
-#    b = input("请输入小说的名字：")
-#    downloadtxt(a, b)
-h = geturl('https://www.biqiuge.com/book/232/')
+if __name__ == '__main__':
+    a = input("请输入您想下载小说的目录地址：")
+    b = input("请输入小说的名字：")
+    downloadtxt(a, b)
 
-t = open('mulu.txt','w')
-for i in range(len(h)):
-    t.write(h[i]+"\n")
-t.close
+#h = geturl("https://www.biqiuge.com/book/34991/")
+#print(h[3])
 
+#gettxt("https://www.biqiuge.com/book/34991/21351627.html","超级武神qq")
 
 
 
